@@ -34,7 +34,6 @@ function App() {
         const { data: { text } } = await Tesseract.recognize(
           event.target.result,
           'eng',
-          { logger: m => console.log(m) }
         );
         setExtractedText(text);
         
@@ -74,7 +73,6 @@ function App() {
 
       axios.post(apiUrl, data, { headers })
       .then(response => {
-        console.log(response);
         setGeneratedAnswer(response.data.choices[0].message.content);
         setLoading(false);
       })
