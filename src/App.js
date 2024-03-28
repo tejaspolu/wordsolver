@@ -111,7 +111,7 @@ function App() {
         {error && <div className="error">{error}</div>}
       {generatedAnswer && !error && (
           <div className="answer-div">
-            <h3 className="answer-title">answer:</h3>
+            <h3 className="answer-title">response:</h3>
             <p className="answer-text">{generatedAnswer}</p>
           </div>
         )}
