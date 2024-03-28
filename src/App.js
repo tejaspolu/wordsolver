@@ -49,6 +49,7 @@ function App() {
   };
 
   const generateAnswer = (text) => {
+      // for personal access, enter your openai api token here
       const apiKey = process.env.REACT_APP_OPENAI_API_TOKEN;
       const prompt = text; 
       console.log(prompt);
