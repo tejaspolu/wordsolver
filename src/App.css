@@ -164,6 +164,6 @@ button:focus {
 
 @media screen and (max-width: 414px) {
   .title-text {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
