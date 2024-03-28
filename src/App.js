@@ -58,7 +58,7 @@ function App() {
         messages: [
           {
               role: "user",
-              content: "You are a calculator that can solve any math problem. Only include the answer in your response. Include mathematical units. Type in all lowercase. Prompt: " + prompt
+              content: "You are a calculator that can solve any math problem. Only include the answer in your response. Include mathematical units. Type your response all lowercase letters please. Prompt: " + prompt
           }
        ],
         max_tokens: 500,
