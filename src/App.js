@@ -52,7 +52,6 @@ function App() {
       // for personal access, enter your openai api token here
       const apiKey = process.env.REACT_APP_OPENAI_API_TOKEN;
       const prompt = text; 
-      console.log(prompt);
       const data = {
         model: "gpt-4-turbo-preview",
         messages: [
