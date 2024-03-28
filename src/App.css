@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFBF2;
+}
+
+@font-face {
+  font-family: futura-light;
+  src: url(../public/fonts/Futura/futura\ light\ bt.ttf);
+}
+
+@font-face {
+  font-family: poppins-regular;
+  src: url(../public/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins-medium;
+  src: url(../public/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+.App {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: #211D21;
+  width: 100%;
+  height: 100vh;
+}
+
+div.App-body {
+  padding: 50px 35px 0 35px;
+  max-width: 605px;
+  height: 75vh;
+}
+
+.title-text{
+  font-size: 60px;
+  font-family: "poppins-medium";
+}
+
+.app-description {
+  font-weight: 500;
+  padding: 15px 0 25px;
+  line-height: 25px;
+}
+
+.btns-div {
+  display: flex;
+  flex:1;
+  justify-content: center;
+}
+
+button {
+  font-family: "poppins-regular";
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #C10206;
+  box-shadow: rgba(255, 0, 0, 0.1) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #C10206;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(255, 0, 0, .2) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+  box-shadow: rgba(255, 0, 0, .2) 2px 8px 4px -6px;
+}
+
+.image-container {
+  padding-top: 25px;
+}
+
+.image-upl {
+  max-width: 100%;
+}
+
+.author-div {
+  padding-top: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.author-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;  
+  font-size: 12px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-div {
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: "poppins-medium";
+}
+
+.answer-text {
+  font-size: 15px;
+  padding-top: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;  
+}
+
+.error {
+  padding-top: 15px;
+  color: #A50113;
+  font-weight: 500;
+}
