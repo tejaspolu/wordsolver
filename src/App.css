@@ -102,6 +102,7 @@ button:focus {
 
 .image-upl {
   max-width: 100%;
+  max-height: 300px;
 }
 
 .author-div {
