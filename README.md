@@ -5,3 +5,4 @@ this project aims to develop an application capable of solving word problems fro
 
 ## examples
 <img width="787" alt="example-1" src="public/images/example-1.png">
+<img width="787" alt="example-2" src="public/images/example-2.png">
