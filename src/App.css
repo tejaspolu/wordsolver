@@ -158,6 +158,12 @@ button:focus {
 
 @media screen and (max-width: 605px) {
   .title-text {
-    font-size: 50px; /* Change font size for smaller screens */
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .title-text {
+    font-size: 45px;
   }
 }
