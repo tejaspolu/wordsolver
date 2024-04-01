@@ -87,7 +87,7 @@ function App() {
     <div className="App">
       <div className="App-body">
         <h1 className="title-text">wordsolver &#x1f9ee;</h1>
-        <p className="app-description">adds word problem detection to the idea of photomath. uses react, tesseract.js, openai api, and opencv.</p>
+        <p className="app-description">adds word problem detection to the idea of photomath. uses react, tesseract ocr, openai api, and opencv.</p>
         <div className="btns-div">
           <input
             type="file"
